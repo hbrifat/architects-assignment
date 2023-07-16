@@ -29,11 +29,11 @@
     border:.1rem solid transparent;
 }
 
-.btn-primary:hover{
+/* .btn-primary:hover{
     background: #fff;
     color: #FF900E;
     border: .1rem solid #FF900E;
-}
+} */
 
 section{
     margin: 4.5rem 0rem;
@@ -116,6 +116,12 @@ header{
     margin-bottom: 1rem;
 }
 
+.header-description .btn-primary:hover{
+    background: #fff;
+    color: #FF900E;
+    border: .1rem solid #FF900E;
+}
+
 .header-img img{
     width: 100%;
     height: 43.75rem;
@@ -172,6 +178,94 @@ header{
 .features-info .btn-primary:hover{
     border: .1rem solid #FF900E; 
 }
+
+
+/* More Features Section */
+
+
+.profile-content{
+    display: flex;
+    gap: 7rem;
+    margin: 0 1rem;
+}
+
+.profile-info{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.profile-title{
+    font-size: 2.813rem;
+    font-weight: 700;
+    border-left: .5rem solid #FF900E;
+    padding-left: 1.313rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-bottom: 1.875rem;   
+}
+
+.features-item{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1.25rem;
+    padding: 1.875rem;
+}
+
+.features-item h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+}
+
+.features-item p{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;   
+}
+
+.profile-img img{
+    width: 44.25rem;
+    height: 61.375rem;
+    border-radius: .5rem;
+}
+
+.profile-img .btn-primary{
+    width: 21.375rem;
+    height: 12.5rem;
+    color: #FFF;
+    text-align: center;
+    padding: 2.8rem 2.6rem;
+    position: relative;
+    left: -4rem;
+    bottom: 7rem;
+}
+
+.ten_y{
+    font-size: 4.063rem;
+    font-weight: 700;
+}
+
+.experience{
+    font-size: 1.563rem;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 2.5rem; */
+}
+
+
+
+
+
+
+
 
 
 
