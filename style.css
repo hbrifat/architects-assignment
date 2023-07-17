@@ -319,6 +319,47 @@ header{
 }
 
 
+/* Sponsors Section */
+
+
+.sponsors-content{
+    margin-top: 6.875rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.sponsors-info{
+    max-width: 33.8rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3.25rem;
+}
+
+.sponsors-title{
+    font-size: 2.813rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.sponsors-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.sponsors-items-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors-item img{
+    width: 10.375rem;
+    height: 3.125rem;
+}
+
+
 
 
 
