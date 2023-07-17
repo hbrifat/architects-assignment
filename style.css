@@ -8,6 +8,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body{
+    background-color: #fff;
+}
+
 /* Common styles */
 
 .container{
@@ -357,6 +361,29 @@ header{
 .sponsors-item img{
     width: 10.375rem;
     height: 3.125rem;
+}
+
+
+
+/* Footer Section */
+
+footer{
+    margin-bottom: 13.5rem;
+}
+
+.footer-content{
+    background-color: #fff4e7;
+    border-radius: .5rem;
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #424242;
 }
 
 
