@@ -51,7 +51,6 @@ header{
 }
 
 .header-content{
-    /* padding: 50px; */
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
     padding-left: 1rem;
@@ -110,6 +109,7 @@ header{
 .header-title{
     font-size: 4rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .header-description{
@@ -118,9 +118,10 @@ header{
     font-weight: 400;
     line-height: 1.625rem;
     margin-bottom: 1rem;
+    color: #727272;
 }
 
-.header-description .btn-primary:hover{
+.header-info .btn-primary:hover{
     background: #fff;
     color: #FF900E;
     border: .1rem solid #FF900E;
@@ -162,6 +163,7 @@ header{
 
 .features-title .quick_list{
     color: #727272;
+    font-weight: 500;
 }
 
 .features-title .of_our{
@@ -177,9 +179,12 @@ header{
     font-weight: 400;
     line-height: 1.625rem;
     margin-bottom: 1.5rem;
+    color: #727272;
 }
 
 .features-info .btn-primary:hover{
+    background: #fff;
+    color: #FF900E;
     border: .1rem solid #FF900E; 
 }
 
@@ -275,8 +280,10 @@ header{
 
 
 .facts-info{
-    margin-bottom: 6.25rem;
+    margin: 0 auto;
+    text-align: center;
     width: 33.8rem;
+    margin-bottom: 6.25rem;
 }
 
 .facts-title{
@@ -303,6 +310,7 @@ header{
     border-radius: .5rem;
     width: 15rem;
     height: 15rem;
+    transition: color .3s ease-in-out,box-shadow .3s ease-in-out;
 }
 
 .facts-item img{
@@ -319,7 +327,12 @@ header{
 .facts-item p{
     font-size: 1.25rem;
     font-weight: 600;
-    color: #727272;
+    /* color: #727272; */
+}
+
+.facts-item:hover{
+    box-shadow: inset 15rem 0 0 0 #54b3d6;
+    color: white;
 }
 
 
@@ -334,7 +347,7 @@ header{
 
 
 .sponsors-info{
-    max-width: 33.8rem;
+    max-width: 35rem;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 3.25rem;
